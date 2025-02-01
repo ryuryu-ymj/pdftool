@@ -1,0 +1,13 @@
+[project]
+name = "pdftool"
+version = "0.1.0"
+description = "My PDF tools."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1.8",
+    "pymupdf>=1.25.2",
+]
+
+[project.scripts]
+pdftool = "pdftool.main:main"
