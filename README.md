@@ -1,8 +1,17 @@
 PDF command-line tool using PyMuPDF.
 
-# Commands
-* `pdftool compress`: Compress PDF file size.
-* `pdftool resize`:   Resize PDF pages.
+# Usage
+```
+Usage: pdftool [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  compress  Compress PDF file size.
+  resize    Resize PDF pages.
+```
 
 # Installation
 ### pip
